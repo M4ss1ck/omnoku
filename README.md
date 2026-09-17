@@ -2,14 +2,14 @@
 
 Downloads for **Omnoku**, a variant Sudoku app for Linux, Windows and Android.
 
-This repository holds **binaries only**. There is no source code here, no build workflows and no
-issue tracker for the app's code. Every release is published from a private build and kept
-indefinitely.
+This repository holds **binaries only**: no source code, no build workflows. Every release is
+published from a private build and kept indefinitely. Use the issue tracker here for downloads,
+installs and the app itself; there is no source to read or patch.
 
 ## Download
 
 - **[Latest release](https://github.com/M4ss1ck/omnoku/releases/latest)** — pick the file for your
-  device.
+  device. (Empty until the first public release; use the site below in the meantime.)
 - **[omnoku.massick.dev](https://omnoku.massick.dev)** — play in the browser, or let the site pick
   the right installer for you.
 
@@ -51,8 +51,8 @@ sha256sum --check --ignore-missing SHA256SUMS
 ```
 
 ```powershell
-# Windows PowerShell
-Get-FileHash .\Omnoku_0.15.0_x64-setup.exe -Algorithm SHA256
+# Windows PowerShell, then compare the hash with the one in SHA256SUMS
+Get-FileHash .\Omnoku_*_x64-setup.exe -Algorithm SHA256
 ```
 
 Checksums prove the download is not corrupted or truncated. They do not prove who published it —
