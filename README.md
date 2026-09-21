@@ -9,7 +9,7 @@ installs and the app itself; there is no source to read or patch.
 ## Download
 
 - **[Latest release](https://github.com/M4ss1ck/omnoku/releases/latest)** — pick the file for your
-  device. (Empty until the first public release; use the site below in the meantime.)
+  device.
 - **[omnoku.massick.dev](https://omnoku.massick.dev)** — play in the browser, or let the site pick
   the right installer for you.
 
